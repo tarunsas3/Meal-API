@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: cascadia code;
+  background: #dde1e7;
+  outline: none;
+  border: none;
+}
+
+.content {
+  display: flex;
+  text-transform: capitalize;
+  font-style: italic;
+  margin: 40px auto;
+  font-size: 20px;
+  font-weight: bolder;
+  justify-content: center;
+}
+
+.mealSearch {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 2.5% auto;
+}
+.mealSearch input {
+  padding: 0.5rem 1rem;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: bolder;
+  background: #dde1e7;
+  border-radius: 10px;
+  height: 40px;
+  width: 60%;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px rgba(255, 255, 255, 0.4509803922);
+}
+.mealSearch button {
+  margin-left: 20px;
+  background: green;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #babecc, -5px -5px 10px rgba(255, 255, 255, 0.4509803922);
+}
+.mealSearch button .favorite {
+  color: white;
+  border-radius: 5px;
+  background: green;
+  font-size: 30px;
+  padding: 0.5rem;
+}
+
+.mealDisplay {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.mealDisplay .meal {
+  margin: 20px;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background: #dde1e7;
+  box-shadow: 2px 2px 5px #babecc, -5px -5px 10px rgba(255, 255, 255, 0.4509803922);
+}
+.mealDisplay .meal img {
+  width: 370px;
+  border-radius: 10px;
+}
+.mealDisplay .meal .wrapper {
+  display: flex;
+  justify-content: center;
+}
+.mealDisplay .meal .wrapper h3 {
+  padding: 0.5rem;
+  display: flex;
+  margin-top: 14px;
+  font-size: 30px;
+  justify-content: center;
+  font-weight: bolder;
+  border-radius: 10px;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px rgba(255, 255, 255, 0.4509803922);
+}
+.mealDisplay .meal .wrapper button {
+  font-size: 25px;
+  padding: 0.5rem;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 13px;
+  border-radius: 10px;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px rgba(255, 255, 255, 0.4509803922);
+}
+.mealDisplay .meal .wrapper button .fav {
+  border-radius: 10px;
+}
+.mealDisplay .mealDetails {
+  display: flex;
+  background: #dde1e7;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #babecc, -5px -5px 10px rgba(255, 255, 255, 0.4509803922);
+}
+.mealDisplay .mealDetails img {
+  width: 400px;
+  height: 400px;
+  margin: 1rem;
+  border-radius: 10px;
+}
+.mealDisplay .mealDetails .detailsWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: -20px 20px 20px 40px;
+}
+.mealDisplay .mealDetails .detailsWrapper p {
+  margin: 10px 0px;
+}
+.mealDisplay .mealDetails .detailsWrapper ul li {
+  list-style: none;
+  margin: 5px 0px;
+  font-weight: bolder;
+}
+.mealDisplay .mealDetails .detailsWrapper button {
+  padding: 0.5rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 20px auto;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: bolder;
+  background: #dde1e7;
+  box-shadow: 2px 2px 5px #babecc, -5px -5px 10px rgba(255, 255, 255, 0.4509803922);
+}
+
+h2 {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.addToList .fav, .removeFromList .fav {
+  color: black;
+}
+.addToList.selected .fav, .removeFromList.selected .fav {
+  color: red;
+}/*# sourceMappingURL=index.css.map */
